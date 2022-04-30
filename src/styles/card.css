@@ -1,0 +1,16 @@
+.img-col {
+    overflow: hidden;
+}
+.img-col img {
+    width: 25rem;
+    height: 100%;
+}
+
+.fa-location-dot {
+    color: #F55A5A;
+}
+
+.travel-card {
+    width: 80%;
+    margin: 0 auto;
+}
