@@ -7,7 +7,7 @@ function Card(props) {
                 <div className='col-3 img-col rounded'>
                     <img src={props.imageUrl} />
                 </div>
-                <div className='col-9'>
+                <div className='col-9 pt-5'>
                     <h4 className='d-inline pe-5'><i className="fa-solid fa-location-dot fa-xs"></i> {props.location}</h4><a href={props.googleMapsUrl} target={"_blank"} style={{color: '#918E9B'}}>View on Google Maps</a>
                     <h1 className='fw-bold mb-4'>{props.title}</h1>
                     <p className='fw-bold'>{props.startDate} - {props.endDate}</p>
